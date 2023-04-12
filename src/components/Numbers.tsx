@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSudokuContext } from '../context/SudokuContext';
 
+
 type NumbersProps = {
   onClickNumber: (number: string) => void
 };
